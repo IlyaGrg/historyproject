@@ -1,0 +1,30 @@
+﻿@model MvcComments.Models.Post
+
+@{
+    ViewData["Title"] = "Просмотр поста";
+}
+<head>
+    <link href="~/css/post/details.css" rel="stylesheet" />
+</head>
+<div class="details-container">
+    <h1 class="details-title">@Html.DisplayFor(model => model.Title)</h1>
+
+    <div class="details-content">
+        <dl class="details-list">
+            <dt class="details-label">Автор:</dt>
+            <dd class="details-value">@Html.DisplayFor(model => model.Author)</dd>
+
+            <dt class="details-label">Дата публикации:</dt>
+            <dd class="details-value">@Html.DisplayFor(model => model.PublicationDate)</dd>
+
+            <dt class="details-label">Содержание:</dt>
+            <dd class="details-value details-content-value">
+                @Html.Raw(Html.Encode(Model.Content).Replace("\n", "<br />"))
+            </dd>
+        </dl>
+    </div>
+    <div class="details-back-link">
+        <a asp-action="Index" class="details-back-link-a">К списку постов</a>
+    </div>
+</div>
+

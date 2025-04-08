@@ -1,0 +1,416 @@
+﻿@model IEnumerable<MvcComments.Models.Comments>
+@{
+    ViewData["Title"] = "Новое время";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/newhistory/site.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/style.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/Bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
+                <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">Назад</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Авторы</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-menu">
+                <div class="main-nav">
+                    <div class="main-logo">Дата</div>
+                    <div class="main-info">Главное событие</div>
+                    <div class="main-logo">Начать</div>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1676-1700</div>
+                    <div class="main-info1">Россия до 1700 года</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="RussiaBefore1700">Читать</a>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1700-1721</div>
+                    <div class="main-info1">Северная Война</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="TheNorthWar">Читать</a>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1682-1725</div>
+                    <div class="main-info1">Реформы Петра Великого</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="PetersReforms">Читать</a>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1725-1762</div>
+                    <div class="main-info1">Дворцовые Перевороты</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="PalaceCoups">Читать</a>
+                </div>
+
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1762-1796</div>
+                    <div class="main-info1">Правление Екатерины Великой</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="Ekaterina">Читать</a>
+                </div>
+
+
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1796-1801</div>
+                    <div class="main-info1">Правление Павла I</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="Pavel">Читать</a>
+                </div>
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1801-1812</div>
+                    <div class="main-info1">Правление Александра I</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="AlexanderFirst">Читать</a>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1812</div>
+                    <div class="main-info1">Отечественная Война</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="HolyWar">Читать</a>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+            <hr>
+
+    </header>
+    <div class="row"></div>
+    <header class="header">
+        <div class="container">
+            <div class="main-menu">
+
+
+
+
+
+
+
+
+
+                
+
+
+                
+
+
+
+                <div class="main-nav2">
+                    <div class="main-logo1">1825</div>
+                    <div class="main-info1">Востание Декабристов</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="DecemberInsurrection">Читать</a>
+                </div>
+
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1825-1855</div>
+                    <div class="main-info1">Правление Николая I</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="NicolaiFrist">Читать</a>
+                </div>
+
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1853-1856</div>
+                    <div class="main-info1">Крымская Война</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="KrimWar">Читать</a>
+                </div>
+
+
+
+
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1855-1881</div>
+                    <div class="main-info1">Правление Александра II</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="AlexandrSecond">Читать</a>
+                </div>
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1855-1881</div>
+                    <div class="main-info1">Общественное движение при Александре II</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="AlexandrSecondSocialMoves">Читать</a>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <hr>
+
+    </header>
+    <div class="row"></div>
+    <header class="header">
+        <div class="container">
+            <div class="main-menu">
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="main-nav2">
+                    <div class="main-logo1">1881-1894</div>
+                    <div class="main-info1">Правление Александра III</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="AlexandrThird">Читать</a>
+                </div>
+
+
+
+
+
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1894-1917</div>
+                    <div class="main-info1">Правление Николая II</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="NicolaiSecond">Читать</a>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1914-1918</div>
+                    <div class="main-info1">Первая Мировая Война</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="FirstWorldWar">Читать</a>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1917</div>
+                    <div class="main-info1">Февральская революция</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="FebruaryRevolution">Читать</a>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1917</div>
+                    <div class="main-info1">Октябрьская Революция</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="OctoberRevolution">Читать</a>
+                </div>
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1918-1922</div>
+                    <div class="main-info1">Гражданская Война</div>
+                    <a class="button" asp-area="" asp-controller="NewHistory" asp-action="CivilWar">Читать</a>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+            <hr>
+
+    </header>
+
+    <div class="row"></div>
+    <!--Прочая часть страницы не относящаяся к выбору эпохи -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-nav">
+                <a class="logo" asp-area="" asp-controller="Midle" asp-action="Index">Начать</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Авторы</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="main-row">
+                <div class="main-slogan">История Средних Веков</div>
+                <div class="img">
+                    <div class="main1-img"><img src="./img/изображение_2024-10-14_220710117.png" alt=""></div>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <div class="row"></div>
+    <header class="main-header1">
+        <div class="container">
+            <div class="header-nav">
+                <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="Index">Читать</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Авторы</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="main-row">
+                <div class="main1-slogan">История Новейшего времени</div>
+                <div class="img">
+                    <div class="main2-img"><img src="./img/ВВ Путин.png" alt=""></div>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <div class="row"></div>
+    <header class="header-question">
+        <div class="container-question">
+            <div class="header-nav-question">
+                <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">Назад</a>
+                <nav class="nav-question">
+                    <ul class="nav-list-question">
+                        <li class="nav-item-question"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item-question"><a href="#!" class="nav-link">Сайт</a></li>
+                        <li class="nav-item-question"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div class="opening-question">В этом разделе вы можете проверить свои знания по эпохе:</div>
+
+
+            <div class="tipe">История новго времени</div>
+
+            <div class="date">1676-1922 г.г.</div>
+
+
+
+            <div class="js-top">
+                <div class="question">Имя первого российского императора</div>
+                <input class="js-input" type="text" id="input4">
+                <div class="js-output" id="output4"></div>
+                <button class="js-button" id="btn4">Ответить</button>
+
+                <div class="question-1">Сколько лет продолжалась северная война?</div>
+                <input class="js-input1" type="text" id="input5">
+                <div class="js-output1" id="output5"></div>
+                <button class="js-button1" id="btn5">Ответить</button>
+
+                <div class="question-1">В каком году отменили крепостное право</div>
+                <input class="js-input" type="text" id="input">
+                <div class="js-output" id="output"></div>
+                <button class="js-button" id="btn">Ответить</button>
+
+                <div class="question-1">Имя императора, который известен своими контрреформами</div>
+                <input class="js-input" type="text" id="input1">
+                <div class="js-output" id="output1"></div>
+                <button class="js-button" id="btn1">Ответить</button>
+
+                <div class="question-1">В каком году началась первая русская революция?</div>
+                <input class="js-input" type="text" id="input2">
+                <div class="js-output" id="output2"></div>
+                <button class="js-button" id="btn2">Ответить</button>
+
+                <div class="question-1">Какая партия пришла ко власти в результате Октябрьской Революции</div>
+                <input class="js-input" type="text" id="input3">
+                <div class="js-output" id="output3"></div>
+                <button class="js-button" id="btn3">Ответить</button>
+
+                <div class="question-1" id="result-answer">Правильных ответов 0 из 6</div>
+
+
+
+
+
+            </div>
+        </div>
+    </header>
+    <div class="row"></div>
+    <section>
+        <div class="container-question">
+            <div class="header-nav-question">
+                <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">Назад</a>
+                <nav class="nav-question">
+                    <ul class="nav-list-question">
+                        <li class="nav-item-question"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item-question"><a href="#!" class="nav-link">Сайт</a></li>
+                        <li class="nav-item-question"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="section_for_comments">
+                <div class="Title">Комментарии</div>
+                <div class="description">В этом разделе вы сможете высказать свое мнение о содержимой информации <br /> в эпохе: История средних веков<br />оставьте свои пожелания и варианты изменений в комментариях!</div>
+            </div>
+            <div class="button__create">
+                <p>
+                    <a asp-action="Create" class="create">Оставить комментарий</a>
+                </p>
+            </div>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model.Reverse())
+                {
+                    <div class="Autor">
+                        @Html.DisplayFor(modelItem => item.Autor)
+                    </div>
+
+                    <div class="SubComment">
+                        <div class="Comment">
+                            @Html.DisplayFor(modelItem => item.Comment)
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="Autor">
+                    Разработчик
+                </div>
+                <div class="SubComment">
+                    <div class="Comment">
+                        Пока нет комментариев
+                    </div>
+                </div>
+            }
+
+    </section>
+    <script src="/js/newhistory/index.js"></script>
+</body>
+</html>

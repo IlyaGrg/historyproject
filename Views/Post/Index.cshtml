@@ -1,0 +1,60 @@
+﻿
+@model IEnumerable<MvcComments.Models.Post>
+
+@{
+    ViewData["Title"] = "Посты";
+}
+
+<head>
+    <link href="/css/post/site.css" rel="stylesheet" />
+</head>
+<div class="header-nav">
+    <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">Назад</a>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#!" class="nav-link">Основное</a></li>
+            <li class="nav-item"><a href="#!" class="nav-link">Авторы</a></li>
+            <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+    <a asp-action="Create" class="none" >Написать пост</a>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PublicationDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PublicationDate)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id">Читать</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

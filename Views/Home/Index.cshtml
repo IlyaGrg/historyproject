@@ -1,0 +1,156 @@
+﻿
+@{
+    ViewData["Title"] = "Главная";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Исторический путеводитель</title>
+    <link rel="stylesheet" href="~/css/main/site.css">
+</head>
+<body>
+   
+    <!--шапка!-->
+    <header class="header">
+        <div class="container">
+
+            <div class="header-nav">
+                <a href="./index.html" class="logo">История</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item" id="main"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item" id="main"><a href="#!" class="nav-link">Сайт</a></li>
+                        <li class="nav-item" id="main"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="modal " id="my-modal">
+                <div class="modal__box">
+                    <button class="modal__close-btn" id="close-my-modal-btn">
+                        <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                                  fill="#333333" />
+                            <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+                        </svg>
+                    </button>
+                    <h2>Основное</h2>
+
+                    <p>Данный сайт является индвидуальным проектом ученика Григорьева Ильи 10 А класса школы номер 86 из Ижевска</p>
+
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+            <div class="header-row">
+                <div class="slogan">Изучение Истории России</div>
+
+            </div>
+
+        </div>
+
+    </header>
+    <div class="row"></div>
+    <header class="main-header">
+        <div class="container">
+
+            <div class="main">
+                <a class="main-logo" asp-area="" asp-controller="Comments" asp-action="Index">Начать</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item" id="main"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Авторы</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="main-row">
+                <div class="main-slogan3">История Средних веков</div>
+                <div class="img">
+                    <div class="main1-img"><img src="./img/изображение_2024-10-14_220710117.png" alt=""></div>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+    <div class="row"></div>
+    <header class="main1-header">
+        <div class="container">
+
+            <div class="main">
+                <a class="main-logo" asp-area="" asp-controller="NewHistory" asp-action="Index">Начать</a>
+
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Авторы</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="main-row">
+                <div class="main-slogan">История Нового времени</div>
+                <div class="img">
+                    <div class="main1-img1"><img src="./img/katya.png" alt=""></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <div class="row"></div>
+    <header class="main2-header">
+        <div class="container">
+
+            <div class="main">
+                <a class="logo" asp-area="" asp-controller="ModernHistory" asp-action="Index">Начать</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Авторы</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="main-row">
+                <div class="main1-slogan">История Новейшего времени</div>
+                <div class="img">
+                    <div class="main2-img"><img src="./img/ВВ Путин.png" alt=""></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <div class="row"></div>
+
+    <header class="main3-header">
+        <div class="container">
+            <div class="header-nav">
+                <a href="./index.html" class="logo">История</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Сайт</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="aboutgame">Проверьте свои знания в игре!</div>
+            <div class="download__button">
+                <a href="https://drive.google.com/drive/folders/1dYgCfe7eLI2GX5MLGb-dYAzuqgpoiIm2" target="_blank" class="download">Скачать</a>
+            </div>
+            <div class="d"></div>
+        </div>
+    </header>
+
+
+    <script src="/js/main/index.js"></script>
+</body>
+</html>

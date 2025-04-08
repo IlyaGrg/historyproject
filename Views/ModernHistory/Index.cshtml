@@ -1,0 +1,347 @@
+﻿@model IEnumerable<MvcComments.Models.Comments>
+@{
+    ViewData["Title"] = "Новейшее время";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/modernhistory/site.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/style.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/Bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
+                <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">Назад</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Авторы</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-menu">
+                <div class="main-nav">
+                    <div class="main-logo">Дата</div>
+                    <div class="main-info">Главное событие</div>
+                    <div class="main-logo">Начать</div>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1922-1924</div>
+                    <div class="main-info1">Становление СССР</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="USSR">Читать</a>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1924-1939</div>
+                    <div class="main-info1">Индустриализация и Коллективизация</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="IndustrializationAndCollectivization">Читать</a>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1920e</div>
+                    <div class="main-info1">Репрессии Сталина</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="StalinsRepresions">Читать</a>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1939</div>
+                    <div class="main-info1">Советско-Финская война</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="SovetFinnishWar">Читать</a>
+                </div>
+
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1941-1945</div>
+                    <div class="main-info1">Великая Отечественная Война</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="SecondHollyWar">Читать</a>
+                </div>
+
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1945-1953</div>
+                    <div class="main-info1">СССР после ВОВ</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="USSRAfterSecondHolyWar">Читать</a>
+                </div>
+
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1945-1991</div>
+                    <div class="main-info1">Холодная Война</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="HoldWar">Читать</a>
+                </div>
+
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1953-1964</div>
+                    <div class="main-info1">Хрущевская оттепель</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="KhrushchevsThaw">Читать</a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <hr>
+
+    </header>
+    <div class="row"></div>
+    <header class="header">
+        <div class="container">
+
+            <div class="main-menu">
+                <div class="navik2">
+                    <div class="main-logo1">1961</div>
+                    <div class="main-info1">Берлинская стена</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="BerlinsWall">Читать</a>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1964-1982</div>
+                    <div class="main-info1">Правление Брежнева. Дефицит</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="Breznev">Читать</a>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1979-1989</div>
+                    <div class="main-info1">Афганская война</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="AfganWar">Читать</a>
+                </div>
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1985-1991</div>
+                    <div class="main-info1">Перестройка</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="Perestroika">Читать</a>
+                </div>
+
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1991</div>
+                    <div class="main-info1">Распад СССР</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="CollapseOfTheUSSR">Читать</a>
+                </div>
+
+
+
+
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">1991-1999</div>
+                    <div class="main-info1">Правление Ельцина</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="Eltsin">Читать</a>
+                </div>
+
+
+
+                <div class="main-nav1">
+                    <div class="main-logo1">2000-2022</div>
+                    <div class="main-info1">Правление Путина</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="Putin">Читать</a>
+                </div>
+
+                <div class="main-nav1">
+                    <div class="main-logo1">2014</div>
+                    <div class="main-info1">Присоединение Крыма</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="Krym">Читать</a>
+                </div>
+
+                <div class="main-nav1">
+                    <div class="main-logo1">2014-2022</div>
+                    <div class="main-info1">Россия до 2022</div>
+                    <a class="button" asp-area="" asp-controller="ModernHistory" asp-action="RussiaBefore2022">Читать</a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <hr>
+
+    </header>
+    <div class="row"></div>
+    <!--Прочая часть страницы не относящаяся к выбору эпохи -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-nav">
+                <a class="logo" asp-area="" asp-controller="Midle" asp-action="Index">Начать</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Авторы</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="main-row">
+                <div class="main-slogan">История Средних Веков</div>
+                <div class="img">
+                    <div class="main-img"><img src="./img/изображение_2024-10-14_220710117.png" alt=""></div>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <div class="row"></div>
+    <header class="main-header1">
+        <div class="container">
+            <div class="header-nav">
+                <a class="logo" asp-area="" asp-controller="NewHistory" asp-action="Index">Начать</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Авторы</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="main-row">
+                <div class="main-slogan1">История Нового Времени</div>
+                <div class="img">
+                    <div class="main1-img"><img src="./img/katya.png" alt=""></div>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <div class="row"></div>
+    <header class="header-question">
+        <div class="container-question">
+            <div class="header-nav-question">
+                <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">Назад</a>
+                <nav class="nav-question">
+                    <ul class="nav-list-question">
+                        <li class="nav-item-question"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item-question"><a href="#!" class="nav-link">Сайт</a></li>
+                        <li class="nav-item-question"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div class="opening-question">В этом разделе вы можете проверить свои знания по эпохе:</div>
+
+
+            <div class="tipe">История новейшего времени</div>
+
+            <div class="date">1922-2022 г.г.</div>
+
+
+
+            <div class="js-top">
+                <div class="question">В каком году образовалось Гос-во СССР?</div>
+                <input class="js-input" type="text" id="input4">
+                <div class="js-output" id="output4"></div>
+                <button class="js-button" id="btn4">Ответить</button>
+
+                <div class="question-1">Первый глава СССР(Имя и Фамилия)</div>
+                <input class="js-input1" id="input5" type="text">
+                <div class="js-output1" id="output5"></div>
+                <button class="js-button1" id="btn5">Ответить</button>
+
+                <div class="question-1">В каком году началась Великая Отечественная война?</div>
+                <input class="js-input" type="text" id="input">
+                <div class="js-output" id="output"></div>
+                <button class="js-button" id="btn">Ответить</button>
+
+                <div class="question-1">Кто из глав партии начал эпоху перестройки в Советском Союзе?(Фамилия)</div>
+                <input class="js-input" type="text" id="input1">
+                <div class="js-output" id="output1"></div>
+                <button class="js-button" id="btn1">Ответить</button>
+
+                <div class="question-1">Как называется период напряженности, который длился с конца  1945 года до начала 1990-х годов?</div>
+                <input class="js-input" type="text" id="input2">
+                <div class="js-output" id="output2"></div>
+                <button class="js-button" id="btn2">Ответить</button>
+
+                <div class="question-1">Как называется вакцина от Короновируса, разработанная Российскими учеными?</div>
+                <input class="js-input" type="text" id="input3">
+                <div class="js-output" id="output3"></div>
+                <button class="js-button" id="btn3">Ответить</button>
+
+                <div class="question-1" id="result-answer">Правильных ответов 0 из 6</div>
+
+            </div>
+        </div>
+    </header>
+    <div class="row"></div>
+    <section>
+        <div class="container-question">
+            <div class="header-nav-question">
+                <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">Назад</a>
+                <nav class="nav-question">
+                    <ul class="nav-list-question">
+                        <li class="nav-item-question"><a href="#!" class="nav-link">Основное</a></li>
+                        <li class="nav-item-question"><a href="#!" class="nav-link">Сайт</a></li>
+                        <li class="nav-item-question"><a href="#!" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="section_for_comments">
+                <div class="Title">Комментарии</div>
+                <div class="description">В этом разделе вы сможете высказать свое мнение о содержимой информации <br /> в эпохе: История средних веков<br />оставьте свои пожелания и варианты изменений в комментариях!</div>
+            </div>
+            <div class="button__create">
+                <p>
+                    <a asp-action="Create" class="create">Оставить комментарий</a>
+                </p>
+            </div>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model.Reverse())
+                {
+                    <div class="Autor">
+                        @Html.DisplayFor(modelItem => item.Autor)
+                    </div>
+
+                    <div class="SubComment">
+                        <div class="Comment">
+                            @Html.DisplayFor(modelItem => item.Comment)
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="Autor">
+                    Разработчик
+                </div>
+                <div class="SubComment">
+                    <div class="Comment">
+                        Пока нет комментариев
+                    </div>
+                </div>
+            }
+
+    </section>
+    <script src="/js/modernhistory/index.js"></script>
+</body>
+</html>
