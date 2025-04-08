@@ -1,0 +1,298 @@
+@import "../reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    color: #000;
+    font-size: 14;
+    border-color: #000;
+    overflow-x: hidden;
+}
+/*ÿ¿œ ¿*/
+.header {
+    padding-top: 46px;
+    background: url(/img/1.jpg);
+    background-size: cover;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+    font-weight: 400;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    padding: 0 12px 3px 0;
+    line-height: 1;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.header-row {
+    margin-top: 250px;
+    text-align: center;
+    padding-bottom: 600px;
+}
+
+.slogan {
+    font-weight: 700;
+    font-size: 52px;
+    background-color: #fad6a5;
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 32px;
+}
+
+
+
+
+/*main ÒÚ‡ÌËˆ‡*/
+.main-header {
+    background: url(/img/2.jpg);
+    padding-top: 46px;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+    font-weight: 400;
+}
+
+.main-logo {
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    padding: 0 12px 3px 0;
+    line-height: 1;
+}
+
+
+.nav-link {
+    color: #000;
+}
+
+.main-row {
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.main-slogan {
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: #87CEEB;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 32px;
+}
+
+.main-slogan3 {
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 32px;
+}
+
+.main1-header {
+    background: url(/img/3.jpg);
+    padding-top: 46px;
+    background-size: cover;
+}
+
+
+.main2-header {
+    background: url('/img/4 (2).jpg');
+    padding-top: 46px;
+    background-size: cover;
+}
+
+.row {
+    height: 3px;
+    background-color: #000;
+}
+
+.main1-slogan {
+    font-weight: 700;
+    font-size: 52px;
+    background-color: #d1d1d1;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 100px;
+    border-radius: 32px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.main2-img {
+    width: 80%;
+    height: 80%;
+}
+
+.main1-img1 {
+    width: 80%;
+    height: 80%;
+}
+
+.aboutgame {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    font-size: 52px;
+    background-color: #f1f1f1;
+    border-radius: 32px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.download__button {
+    display: flex;
+    justify-content: center;
+}
+
+.download {
+    font-weight: 700;
+    font-size: 52px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 32px;
+    color: #000;
+    transition: all 150ms ease-in-out;
+}
+
+    .download:hover {
+        background-color: #d1d1d1;
+    }
+
+    .download:active {
+        transform: translateY(2px);
+    }
+
+.main3-header {
+    background: url(/img/dreamstime_c_-_moscou_-_place_rouge_4_0.jpg);
+    background-size: cover;
+    padding-top: 46px;
+}
+
+.d {
+    padding-bottom: 250px;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99998;
+    background-color: rgba(0, 0, 0, .3);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal__box {
+    position: relative;
+    max-width: 500px;
+    padding: 45px;
+    z-index: 1;
+    margin: 30px 15px;
+    background-color: white;
+    box-shadow: 0px 0px 17px -7px rgba(34, 60, 80, 0.2);
+    transform: scale(0);
+    transition: transform .8s;
+}
+
+.modal__close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+
+    .modal__close-btn svg path {
+        transition: fill .4s;
+    }
+
+    .modal__close-btn:hover svg path {
+        fill: blue;
+    }
+
+    .modal__close-btn:active svg path {
+        fill: rgb(186, 53, 0);
+    }
+
+.modal.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+    .modal.open .modal__box {
+        transform: scale(1);
+    }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        text-align: center;
+        column-gap: 10px;
+    }
+
+    .header-row {
+        margin-top: 100px;
+        padding-bottom: 200px;
+    }
+}
+
+

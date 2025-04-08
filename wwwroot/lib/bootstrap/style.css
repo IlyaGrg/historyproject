@@ -1,0 +1,101 @@
+﻿@import "/css/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", serif;
+    color: #000;
+    font-size: 14;
+    border-color: #000;
+    overflow-x: hidden;
+}
+.button__create{
+    display:flex;
+    justify-content:center
+}
+
+.create {
+    color: #000;
+}
+
+section{
+    background-color:#b5b5dc;
+    padding-top:50px;
+}
+p {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 32px;
+    color: #000;
+}
+
+.Autor {
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.SubComment {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.Comment {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 32px;
+    margin-bottom:15px;
+    
+}
+.col-md-4{
+    display:flex;
+    justify-content:center;
+}
+.form-control{
+    border-radius:32px;
+    border-style:solid;
+    padding:5px;
+}
+.form-group{
+    margin-bottom:20px;
+    
+}
+
+.create__comment{
+    display:flex;
+    justify-content:center;
+    margin-bottom: 50px;
+    margin-top:50px;
+    font-weight:700;
+}
+.back_to_list{
+    display:flex;
+    justify-content:center;
+    border-radius:32px;
+    background-color:#f1f1f1;
+    padding:10px;
+    color:#000;
+}
+
+.btn{
+    border-radius:32px;
+}
+.Title {
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.section_for_comments{
+    margin-left:40px;
+   margin-bottom:100px;
+}
+.description{
+    font-size:20px;
+}
+
+
+
+
+

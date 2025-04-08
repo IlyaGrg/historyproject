@@ -1,0 +1,29 @@
+﻿section {
+    background-color: #b5b5dc;
+    padding-top: 50px;
+}
+p {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 32px;
+    color: #000;
+}
+.button__create {
+    display: flex;
+    justify-content: center
+}
+.Section {
+    display: flex;
+    justify-content: center;
+    background: url(/img/1.jpg);
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.row4 {
+    background-color: #fff;
+    border-radius: 32px;
+    padding: 30px;
+    margin-bottom: 300px;
+    margin-top: 200px;
+}

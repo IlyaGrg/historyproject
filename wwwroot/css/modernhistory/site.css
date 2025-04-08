@@ -1,0 +1,362 @@
+﻿@import "/css/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", serif;
+    color: #000;
+    font-size: 14;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.header {
+    padding-top: 46px;
+    background: url('/img/4 (2).jpg');
+    background-size: cover;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+    font-weight: 400;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    padding: 0 12px 3px 0;
+    line-height: 1;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-link {
+    color: #000;
+}
+
+
+.main-menu {
+    margin-left: 50px;
+    margin-right: 50px;
+    background: #f1f1f1;
+    border-radius: 5%;
+    margin-bottom: 100px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.main-logo {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+    padding: 0 12px 3px 0;
+    line-height: 1;
+}
+
+.main-info {
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.button {
+    background-color: #d1d1d1;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    padding: 0 12px 3px 0;
+    line-height: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+    .button:hover {
+        background-color: gray;
+    }
+
+    .button:active {
+        transform: translateY(1px);
+    }
+
+.main-nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.navik2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.main-logo1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    padding: 0 12px 3px 0;
+    line-height: 1;
+}
+
+.main-info1 {
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.main-header {
+    background: url(/img/2.jpg);
+    padding-top: 46px;
+    background-size: cover;
+}
+
+.main-slogan {
+    font-weight: 700;
+    font-size: 52px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #FFF;
+    border-radius: 32px;
+    margin-bottom: 100px;
+}
+
+.main-slogan1 {
+    font-weight: 700;
+    font-size: 52px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #87CEEB;
+    ;
+    border-radius: 32px;
+    margin-bottom: 100px;
+}
+
+.main1-img {
+    padding-left: 180px;
+    width: 80%;
+    height: 80%;
+}
+
+.main-row {
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.main-header1 {
+    background: url(/img/3.jpg);
+    padding-top: 46px;
+    background-size: cover;
+}
+
+.row {
+    background-color: #000;
+    height: 3px;
+}
+
+.main2-img {
+    padding-left: 180px;
+    width: 80%;
+    height: 80%;
+}
+
+.container-question {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    color: #000;
+    font-size: 14;
+    border-color: #000;
+}
+/*ШАПКА*/
+.header-question {
+    padding-top: 46px;
+    background-color: #5E5F8A;
+    background-size: cover;
+}
+
+.header-nav-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+    font-weight: 400;
+}
+
+.logo-question {
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    padding: 0 12px 3px 0;
+    line-height: 1;
+}
+
+.nav-list-question {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-link-question {
+    color: #000;
+}
+
+.opening-question {
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tipe {
+    font-weight: 700;
+    font-size: 46px;
+    margin-top: 100px;
+    text-align: center;
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.date {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.row {
+    height: 3px;
+    background-color: #000;
+}
+
+.js-input {
+    background-color: aliceblue;
+    border: #000;
+    border-style: solid;
+    width: 300px;
+    height: 50px;
+    padding: 20px 20px;
+    border-radius: 32px;
+}
+
+.js-input1 {
+    background-color: aliceblue;
+    border: #000;
+    border-style: solid;
+    width: 300px;
+    height: 50px;
+    padding: 20px 20px;
+    border-radius: 32px;
+}
+
+.js-top {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #fff;
+    border-radius: 32px;
+}
+
+.question {
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #000;
+    font-size: 24px;
+}
+
+.js-button {
+    padding: 10px 10px;
+    transition: all 150ms ease-in-out;
+    border-radius: 32px;
+    background-color: #d1d1d1;
+}
+
+    .js-button:hover {
+        background-color: gray;
+    }
+
+    .js-button:active {
+        transform: translateY(1px);
+    }
+
+.js-button1 {
+    padding: 10px 10px;
+    transition: all 150ms ease-in-out;
+    border-radius: 32px;
+    background-color: #d1d1d1;
+}
+
+    .js-button1:hover {
+        background-color: gray;
+    }
+
+    .js-button1:active {
+        transform: translateY(1px);
+    }
+
+.js-output {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.js-output1 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.question-1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #000;
+    font-size: 24px;
+}
